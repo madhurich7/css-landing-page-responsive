@@ -1,0 +1,84 @@
+html, body{
+	background-color: black;
+}
+
+#content p{
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+}
+
+#content{
+	margin-top: 12em;
+	color: white;
+}
+
+#content p#sale{
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+#content p#sale1{
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+#content p#heading{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: -13px;
+	letter-spacing: 1px;
+}
+
+#content p#shop_the_sale{
+	text-decoration: underline;
+	margin-top: -13.5px;
+
+}
+
+
+#content p#details, #content p#details1{
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+	margin-top: 1.2em;
+}
+#content span#full-priced{
+	margin-top: -10px;
+}
+
+#content p#head-line{
+	font-size: 1.3em;
+	margin-top: -12px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+#content p#use-code{
+	margin-top: -4px;
+	font-weight: bold;
+	font-size: 1em;
+}
+#content span#extra-five{
+	margin-top: -7px;
+} 
+
+@media (max-width:767px) 
+and (min-width:460px)
+{
+	 #content span#extra, #content span#styles,
+	    #content span#full-priced, #content span#extra-five{
+	  		display: block;
+  	}
+  	#content{
+  		/* border: 1px solid white; */
+  		margin-top: 90px;
+  	}
+}
+@media (min-width:768px) and (max-width:1024px){
+	 #content span#extra, #content span#styles,
+	    #content span#full-priced, #content span#extra-five{
+	  		display: block;
+	  	} 
+}
+@media (min-width: 1025px){
+	
+}
